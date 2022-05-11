@@ -1,0 +1,17 @@
+.clBtn {
+    border: 1px solid #EDEDED;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;    
+}
+.clBtn:hover {
+    background: black;
+    border:1px solid black;
+}
+.clBtn:hover  path {
+    fill: white;
+}
+.clBtn:active{
+    fill: teal;
+}

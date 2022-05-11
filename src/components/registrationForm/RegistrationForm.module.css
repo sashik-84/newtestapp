@@ -1,0 +1,36 @@
+.form{
+    width: 640px;
+    
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+    padding: 20px;
+}   
+
+.title{
+    margin: 12px;
+    display: flex;
+    justify-content: start;   
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;   
+}
+.input{
+    padding: 16px 24px;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    background: #f4f4f4;
+    border: 1px solid #f1f1f1;
+}
+.check{
+    width: 100%;
+    padding: 16px 0;
+    margin: 12px;
+    display: flex;
+    justify-content: start;   
+}
